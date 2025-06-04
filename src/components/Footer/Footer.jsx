@@ -12,12 +12,12 @@ const Footer = () => {
             <div className="flex items-center space-x-6 mt-4">
               <img src="https://www.telecomarmenia.am/img/redesign/qr.svg" alt="qr" className="w-20 h-20" />
               <div className="flex flex-col space-y-2">
-                <a href="https://apps.apple.com/us/app/my-beeline-armenia/id886204055" target="_blank">
+                
                   <img src="https://www.telecomarmenia.am/img/redesign/app_store.png" alt="App Store" className="h-10" />
-                </a>
-                <a >
+               
+               
                   <img src="https://www.telecomarmenia.am/img/redesign/google_play.png" alt="Google Play" className="h-10" />
-                </a>
+               
               </div>
             </div>
 

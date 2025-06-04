@@ -11,34 +11,43 @@ import NewApp from './components/App/NewApp';
 import Footer from './components/Footer/Footer';
 import Help from './components/Page/Help';
 import Tariffs from './components/Page/Tariffs';
-
+import Wifiy from './components/Page/Wifiy';
+import Services from './components/Page/Services';
 function App() {
   return (
-    <BrowserRouter>
-      <Header />
-      <Routes>
-        <Route
-          path="/"
-          element={
-            <>
-              <Advertisement />
-              <Cont />
-              <Sub />
-              <News />
-              <NewApp />
-            </>
-          }
-        />
-        <Route path="/tariffs" element={<Tariffs/>} />
-        <Route path="/subscribe" element={<Sub />} />
-        <Route path="/news" element={<News />} />
-        <Route path="/help" element={<Help/>} />
+    <div className="min-h-screen flex flex-col">
+      <BrowserRouter>
+        <Header />
 
-      </Routes>
+        {/* Բովանդակության մասը կաճի ըստ էջի բովանդակության */}
+        <main className="flex-grow">
+          <Routes>
+            <Route
+              path="/"
+              element={
+                <>
+                  <Advertisement />
+                  <Cont />
+                  <Sub />
+                  <News />
+                  <NewApp />
+                </>
+              }
+            />
+            <Route path="/tariffs" element={<Tariffs />} />
+            <Route path="/help" element={<Help />} />
+            <Route path="/internet" element={<Wifiy />} />
+            <Route path="/services" element={<Services/>} />
 
-      <Footer />
-    </BrowserRouter>
+          </Routes>
+        </main>
+
+        {/* Footer-ը միշտ ներքևում կլինի */}
+        <Footer />
+      </BrowserRouter>
+    </div>
   );
 }
+
 
 export default App;
