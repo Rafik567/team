@@ -4,23 +4,19 @@ const Cont = () => {
   const services = [
     {
       title: 'Բջջային կապ',
-      link: '/hy/mobile-tariffs',
       image: '',
     },
     {
       title: 'Ֆիքսված կապ',
-      link: '/hy/home-phone/',
-      image: '/images/promo/1/1650969068409.png',
+      image: '',
     },
     {
       title: 'Հավելվածներ',
-      link: '/hy/team-applications/',
-      image: '/images/promo/1/16509690498367.png',
+      image: '',
     },
     {
       title: 'Ինտերնետ և TV',
-      link: '/hy/cosmo',
-      image: '/images/promo/1/16510462295535.png',
+      image: '',
     },
   ];
 

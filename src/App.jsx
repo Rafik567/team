@@ -13,13 +13,13 @@ import Help from './components/Page/Help';
 import Tariffs from './components/Page/Tariffs';
 import Wifiy from './components/Page/Wifiy';
 import Services from './components/Page/Services';
+import Roaming from './components/Page/Roaming';
 function App() {
   return (
     <div className="min-h-screen flex flex-col">
       <BrowserRouter>
         <Header />
 
-        {/* Բովանդակության մասը կաճի ըստ էջի բովանդակության */}
         <main className="flex-grow">
           <Routes>
             <Route
@@ -38,6 +38,8 @@ function App() {
             <Route path="/help" element={<Help />} />
             <Route path="/internet" element={<Wifiy />} />
             <Route path="/services" element={<Services/>} />
+            <Route path="/roaming" element={<Roaming/>} />
+
 
           </Routes>
         </main>

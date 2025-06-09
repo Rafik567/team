@@ -4,17 +4,14 @@ const News = () => {
  const news = [
     {
       title: '«Տելեկոմ Արմենիա» ԲԲԸ-ն Հայաստանում առաջինն է թողարկում Կայուն զարգացման պարտատոմսեր',
-      link: '/hy/mobile-tariffs',
       image: 'https://www.telecomarmenia.am/images/news/2/17333931457674.jpeg',
     },
     {
       title: 'Team Telecom Armenia-ն Տավուշում ամբողջովին վերազինել է բջջային ցանցը',
-      link: '/hy/home-phone/',
       image: 'https://www.telecomarmenia.am/images/news/1/17478128501455.jpeg',
     },
     {
       title: 'Արի՛ ժամանակի միջով ճամփորդելու. Team-ի Կապի թանգարանը միացել է թանգարանային տոներին',
-      link: '/hy/team-applications/',
       image: 'https://www.telecomarmenia.am/images/news/1/17474608108675.png',
     }
   ];

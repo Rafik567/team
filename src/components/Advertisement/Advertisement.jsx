@@ -9,7 +9,7 @@ const Advertisement = () => {
         <h2 className="font-bold text-4xl mb-4">SONY Smart TV</h2>
         <p className="text-2xl mb-6">ԿՈՍՄՈ/ԿՈՄԲՈ փաթեթներ</p>
         <a
-          href="/hy/sony-combo-cosmo"
+
           className="inline-block bg-red-400 text-black font-semibold px-6 py-3 rounded hover:bg-yellow-500 transition"
         >
           Մանրամասն
